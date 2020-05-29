@@ -1,14 +1,16 @@
 import React from "react"
-
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Header from '../components/Header'
+import P from "../components/designSystem/P"
+import Image404 from "../images/404-image.png"
+import { Link } from "gatsby"
 
-const NotFoundPage = () => (
-  <Layout>
+const NotFoundPage = (data) => (
+  <>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+    <Header />
+    <img src={Image404} width="500" height="500" />
+   <P>The page you tried to access cannot be found. Maybe try going <Link to="/">home</Link>.</P>
+  </>
 )
-
 export default NotFoundPage

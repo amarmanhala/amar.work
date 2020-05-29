@@ -1,0 +1,12 @@
+{
+    "projects": [
+      {
+        "projectTitle": "Just Excel",
+        "projectDescription": "Minimal Excel sheet for note down of quick numbers in browser. Built With: Javascript, Html, Css."
+      },
+      {
+        "projectTitle": "Mom coded",
+        "projectDescription": "Minimal Excel sheet for note down of quick numbers in browser."
+      }
+    ]
+  }
