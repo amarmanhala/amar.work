@@ -28,11 +28,12 @@ const Footer = () => {
           href="https://figma.com"
           target="_blank"
           size={16}
+          rel="noopener"
         >
           Figma
         </Link>
         , coded in{" "}
-        <Link textDecoration="underline" href="https://reactjs.org/" size={16}>
+        <Link textDecoration="underline" href="https://reactjs.org/" size={16} target="_blank" rel="noopener">
           React
         </Link>{" "}
         by Amarpreet singh.

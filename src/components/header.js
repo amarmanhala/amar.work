@@ -36,6 +36,7 @@ const Header = () => {
                   }
                   checked={theme === "dark"}
                   style={{ position: "absolute", left: "-100vw" }}
+                  for="light-dark-mode"
                 />
                 <svg
                   width="24"

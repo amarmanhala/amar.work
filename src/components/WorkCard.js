@@ -12,6 +12,7 @@ const WorkCard = props => {
           href="https://amarmanhala.github.io/JustExcel/"
           target="_blank"
           textDecoration="underline"
+          rel="noopener"
         >
           {props.projectTitle}
         </Link>

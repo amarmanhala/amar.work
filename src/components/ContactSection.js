@@ -19,11 +19,11 @@ const ContactSection = () => {
    </div>
   <div style={InnerWrapper}>
         <H3>Github</H3>
-            <Link href="https://github.com/amarmanhala" target="_blank" textDecoration="underline">@amarmanhala</Link>
+            <Link href="https://github.com/amarmanhala" target="_blank" textDecoration="underline" rel="noopener">@amarmanhala</Link>
   </div>
    <div style={InnerWrapper}>
         <H3>Twitter</H3>
-        <Link href="https://twitter.com/AmarManhala" target="_blank" textDecoration="underline">@amarmanhala</Link>
+        <Link href="https://twitter.com/AmarManhala" target="_blank" textDecoration="underline" rel="noopener">@amarmanhala</Link>
    </div>
       </SectionWrapper>
     </div>

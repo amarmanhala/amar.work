@@ -1,0 +1,1 @@
+body{--bg:#fff;--textNormal:#000;background-color:var(--bg)}body.dark{-webkit-font-smoothing:antialiased;--bg:#000;--textNormal:hsla(0,0%,100%,0.88)}
