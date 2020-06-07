@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/guramar/Develop/momfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/guramar/Develop/momfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Amarpreet Singh","short_name":"Amar","start_url":"/","background_color":"#FFFFFF","theme_color":"#FFFFFF","display":"minimal-ui","icon":"src/images/amar-512.png","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":"119e5108c65b0a4de1bdc06fa4b7a6f7"},
     },{
-      plugin: require('/Users/guramar/Develop/momfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/guramar/Develop/momfolio/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
+      plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -1,12 +1,15 @@
 {
     "projects": [
       {
-        "projectTitle": "Just Excel",
-        "projectDescription": "Minimal Excel sheet for note down of quick numbers in browser. Built With: Javascript, Html, Css."
+        "projectTitle": "Gitmeet",
+        "projectDescription": "Discover developers who are in your city or country.",
+        "link": "https://amarmanhala.github.io/Gitmeet/"
       },
       {
-        "projectTitle": "Mom coded",
-        "projectDescription": "Minimal Excel sheet for note down of quick numbers in browser."
+        "projectTitle": "Just Excel",
+        "projectDescription": "Minimal Excel sheet for note down of quick numbers in browser. Built With: Javascript, Html, Css.",
+        "link": "https://amarmanhala.github.io/JustExcel/"
       }
+     
     ]
   }

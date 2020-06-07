@@ -16,6 +16,7 @@ const AboutSection = () => {
               <WorkCard
                 projectTitle={data.projectTitle}
                 projectDescription={data.projectDescription}
+                link={data.link}
               />
             )
           })}

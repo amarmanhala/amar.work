@@ -9,7 +9,7 @@ const WorkCard = props => {
       <H3>
         <Link
           fontWeight={600}
-          href="https://amarmanhala.github.io/JustExcel/"
+          href={props.link}
           target="_blank"
           textDecoration="underline"
           rel="noopener"
