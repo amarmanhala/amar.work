@@ -10,7 +10,7 @@ const Cover = () => {
       <HeroCoverInner>
         <H1>Hey, I’m Amar.</H1>
         <H2>
-          I’m a frontend javascript developer based in Toronto.
+          I’m a javascript developer based in Toronto, passionate about bridging the gap between design and code.
         </H2>
       </HeroCoverInner>
     </HeroCover>
