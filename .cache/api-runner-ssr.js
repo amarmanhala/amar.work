@@ -10,6 +10,9 @@ var plugins = [{
     },{
       plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-dark-mode/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/guramar/Develop/amar.work/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-156082975-2","head":false,"anonymize":true,"respectDNT":true,"defer":false,"sampleRate":5,"siteSpeedSampleRate":10},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

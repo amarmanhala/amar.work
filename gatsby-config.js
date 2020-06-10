@@ -29,7 +29,16 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-dark-mode',
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-156082975-2",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
