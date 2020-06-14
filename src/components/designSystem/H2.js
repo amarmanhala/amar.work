@@ -8,6 +8,9 @@ const H2 = styled.h2`
   line-height: 42px;
   margin: 0;
   color: var(--textNormal);
+  background-color: ${`props => props.backgroundColor ? var(--bgSecondary) : none`};
+  border: ${`props => props.border ? 2px solid #000 : none`};
+
   /* Media Queries */
   /*  Breakpoints for Mobile - 320 */
   @media screen and (min-width: ${Atoms.Breakpoint.mobileS}) {
