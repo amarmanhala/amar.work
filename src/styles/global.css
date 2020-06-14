@@ -3,6 +3,7 @@
 body {
   --bg: white;
   --textNormal: #000;
+  --bgSecondary: rgb(238, 238, 238);
   background-color: var(--bg);
 }
 
@@ -10,4 +11,5 @@ body.dark {
   -webkit-font-smoothing: antialiased;
   --bg: #000;
   --textNormal: rgba(255, 255, 255, 0.88);
+  --bgSecondary: rgb(41, 41, 41);
 }
