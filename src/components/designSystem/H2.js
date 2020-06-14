@@ -9,7 +9,7 @@ const H2 = styled.h2`
   margin: 0;
   color: var(--textNormal);
   background-color: ${props => props.backgroundColor ? "var(--bgSecondary)" : "none"};
-  border: ${props => props.border ? "2px solid #000" : "none"};
+  border: ${props => props.border ? "2px solid var(--textNormal)" : "none"};
 
   /* Media Queries */
   /*  Breakpoints for Mobile - 320 */
