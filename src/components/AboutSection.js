@@ -27,7 +27,7 @@ const AboutSection = () => {
             ☕.️️
           </P>
           <P>
-            You can take a look at my <Link hred="" target="_blank" textDecoration="underline">resume</Link>, if you’re interested in the
+            You can take a look at my <Link href="https://www.dropbox.com/h?preview=amarpreet_resume.pdf" target="_blank" textDecoration="underline">resume</Link>, if you’re interested in the
             details.
           </P>
         </AboutSectionInnerWrapper>
